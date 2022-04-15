@@ -1,0 +1,132 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
+
+#back{
+    background-color:rgb(217, 209, 252);
+    width: 1920px;
+}
+
+#container{
+    padding-top: 30px;
+    width:100%;
+    height:40%;
+    margin:auto;
+    
+    text-align:center;
+    opacity: 0;
+    
+}
+/* 680 357*/
+.canvas-box {
+    
+    width: 1360px;
+    height: 714px;
+    background-color: #B721FF;
+    background-image: linear-gradient(135deg, #B721FF 0%, #21D4FD 100%);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+canvas{
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    position: absolute;
+    top: 9%;
+    left: 1%;
+    right: 1%;
+    
+}
+
+#back-cube{
+    width: 1260px;
+    height: 614px;
+    background: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    
+    
+}
+#text{
+    text-align: left;
+    white-space: nowrap;
+    top: 40px;
+    left:45px;
+    font-size: 73px; /*77px*/
+    font-weight: bolder;
+    position:absolute;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing:0.1em; 
+    text-shadow: 
+    1px 1px 0, 
+    1px -1px 0px,
+    -1px 1px 0,
+    -1px -1px 0px,
+    1px 0px 0px,
+    0px 1px 0px,
+    -1px 0px 0px,
+    0px -1px 0px;
+  letter-spacing: 0px;
+  color: #333333;
+}
+img{
+    border-radius: 20%;
+    position:absolute;
+    top: 77%;
+    width: 10%;
+    left: 2%;
+    z-index:10000
+}
+.icon p{
+    position: absolute;
+    top: 81%;
+    left: 13%;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #333333;
+    text-shadow:
+    1px 1px 0, 
+    1px -1px 0px,
+    -1px 1px 0,
+    -1px -1px 0px,
+    1px 0px 0px,
+    0px 1px 0px,
+    -1px 0px 0px,
+    0px -1px 0px;
+}
+#textarea{
+    position: absolute;
+
+    top: 1%;
+    left: 1%;
+    right: 1%;;
+    text-align: center;
+    z-index: 10000;
+}
+#blog{
+    position: absolute;
+    top: 81%;
+    left: 67%;
+    font-size: 55px;
+    font-weight: bolder;
+    white-space: nowrap;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #333333;
+    text-shadow:
+    1px 1px 0, 
+    1px -1px 0px,
+    -1px 1px 0,
+    -1px -1px 0px,
+    1px 0px 0px,
+    0px 1px 0px,
+    -1px 0px 0px,
+    0px -1px 0px;
+}
